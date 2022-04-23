@@ -5,6 +5,6 @@ def sum(n):
         return 1
  
     else:
-        return 1 / n + (sum(n - 1))
+        return 1 / n + (sum(n - 2))
          
-print(sum(8))
+print(sum())
